@@ -23,7 +23,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "ElemCrud\\" : "src/"
+            "ElemCrud\\" : "elemental/elem-crud/src/"
         }
     }     
 }

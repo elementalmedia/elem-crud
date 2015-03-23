@@ -22,8 +22,8 @@
         "php": ">=5.3"
     },
     "autoload" : {
-        "psr-4" : {
-            "ElemCrud\\" : "elemental/elem-crud/src/"
+        "psr-0" : {
+            "ElemCrud" : "src/"
         }
     }     
 }

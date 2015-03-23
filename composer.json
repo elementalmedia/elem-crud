@@ -1,0 +1,29 @@
+{
+    "name": "elemental/elem-crud",
+    "description": "ElemCrud is CRUD functionality.",
+    "type": "library",
+    "keywords": [
+        "zf2", "crud"
+    ],
+    "homepage": "https://github.com/elementalmedia/elem-crud",
+    "authors": [
+        {
+            "name": "Agustín Calderón",
+            "email": "agustincl@gmail.com",
+            "homepage": "http://elemedia.net/"
+        },
+        {
+            "name": "Xavier subirà",
+            "email": "xsubira@elemedia.net",
+            "homepage": "http://elemedia.net/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "ElemCrud\\" : "src/"
+        }
+    }     
+}
